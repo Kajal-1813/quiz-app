@@ -1,7 +1,6 @@
 # online-quiz-system
 An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Panel
 
-This project is a great improvement of 'Online-Exam-System-' created by Sunny Prakash Tiwari (https://github.com/sunnygkp10). Since it was licensed under MIT so I think I have rights to improve and re-distribute it. I have again licensed it under MIT. You are free to modify and re-distribute
 
 # Added features: 
 
@@ -17,7 +16,7 @@ This project is a great improvement of 'Online-Exam-System-' created by Sunny Pr
 1. Create a new database in MySQL.
 2. Run the SQL query in "quizzer.sql".
 3. Open the file "dbConnection.php" and change the Server name, Username, Password and Database name.
-3. Visit the home page in browser. Use the "Admin Login" link to login to Admin Panel. Default user - 'sonudoo' pass - '1234567890'
+3. Visit the home page in browser.
 
 # How to Use
 
@@ -27,7 +26,3 @@ This project is a great improvement of 'Online-Exam-System-' created by Sunny Pr
 4. Once the quiz is disabled, the quiz becomes inaccessible. If the quiz is enabled again later, only those user who have not already taken the quiz can take the quiz.
 5. It is recommended that you Enable the quiz when all the users are ready and disable the quiz when all the users have completed the quiz or time limit of taking the quiz has exceeded.
 
-# Issues:
-
-1. Too many SQL queries, needs optimization. Yet not suitable for more than 200 simultaneous user.
-2. Security issues, need to sanitize the URL queries.
